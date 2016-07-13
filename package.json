@@ -1,0 +1,14 @@
+{
+  "name": "grammar-debug",
+  "version": "1.0.0",
+  "description": "A debugging utility for TextMate grammar authors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandru Dima",
+  "license": "MIT",
+  "devDependencies": {
+    "vscode-textmate": "^2.0.1"
+  }
+}

@@ -1,0 +1,1 @@
+node index.js grammar.tmLanguage file.txt > result.txt
