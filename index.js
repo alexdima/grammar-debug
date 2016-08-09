@@ -33,7 +33,7 @@ for (var i = 0; i < lines.length; i++) {
     for (var j = 0; j < r.tokens.length; j++) {
         var token = r.tokens[j];
         console.log('    => TOKEN (' + token.startIndex + '-' + token.endIndex + '): ');
-        console.log('      ' + line.substr(token.startIndex, token.endIndex) + '');
+        console.log('      ' + line.substring(token.startIndex, token.endIndex) + '');
         for (var k = 0; k < token.scopes.length; k++) {
             console.log('      * ' + token.scopes[k]);
         }
@@ -59,7 +59,4 @@ for (var i = 0; i < lines.length; i++) {
     }
 
     ruleStack = r.ruleStack;
-
-    if (i > 4000)
-       break;
 }
