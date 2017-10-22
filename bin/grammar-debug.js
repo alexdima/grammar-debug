@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+const path = require('path');
 
 if (process.argv.length !== 4) {
     console.log('usage: node index.js <grammarPath> <filePath>');
