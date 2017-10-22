@@ -2,8 +2,8 @@
 const path = require('path');
 
 if (process.argv.length !== 4) {
-    console.log('usage: node index.js <grammarPath> <filePath>');
-    process.exit(0);
+    console.log('usage: '+path.basename(process.argv[1])+' <grammarPath> <filePath>');
+    process.exit(1);
 }
 
 var GRAMMAR_PATH = process.argv[2];
