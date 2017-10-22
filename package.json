@@ -8,7 +8,7 @@
   },
   "author": "Alexandru Dima",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "vscode-textmate": "^2.0.1"
   },
   "bin": {
