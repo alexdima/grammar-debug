@@ -1,4 +1,6 @@
 
+Moved to https://github.com/maelvalais/grammar-debug
+
 TM Grammar debugger
 ====
 
